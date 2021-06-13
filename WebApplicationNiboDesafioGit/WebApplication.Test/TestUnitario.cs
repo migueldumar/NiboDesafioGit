@@ -19,6 +19,7 @@ namespace WebApplication.Test
                                     palavra, resultado));
             }
         }
+
         [TestMethod]
         public void TestIniciaComMinusculo()
         {
