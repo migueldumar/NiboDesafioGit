@@ -10,7 +10,7 @@ namespace WebApplication.Test
         [TestMethod]
         public void TestIniciaComMaiusculo()
         {
-            string[] palavras = { "cachorro", "Gato", "Tartaruga", "Coelho" };
+            string[] palavras = { "Cachorro", "Gato", "Tartaruga", "Coelho" };
             foreach (var palavra in palavras)
             {
                 bool resultado = palavra.PrimeiraLetraMaiuscula();
