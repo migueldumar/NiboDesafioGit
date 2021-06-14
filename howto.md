@@ -26,7 +26,7 @@ Para realização do desafio, foi necessário a execução dos seguintes passos?
 #### O deploy deverá ser feito na sua conta Azure nos ambientes que você criou
 
 - O teste unitário foi aplicado no pipeline NiboDesafioGitDev - CI
-	- [Homologação](http://nibodesafiogitdev.azurewebsites.net/)
+	- Homologação
 		- pipeline de build: NiboDesafioGitDev - CI
 			- o job esta sendo iniciado automaticamente quando o repositorio develop é atualizado no github 
 				- utilizando o github flow para criar a release, faz o pusuh e sincronizando )
@@ -37,7 +37,7 @@ Para realização do desafio, foi necessário a execução dos seguintes passos?
 				- para realização da implantação, foi configurado o job release NiboDesafioGitDev - CD, que é inicado automaticamente com o sucesso do job NiboDesafioGitDev - CI				
 				
 				
-	- [Produção](gitnibodesafio.azurewebsites.net)
+	- Produção
 			- pipeline de build: NiboDesafioGit - CI
 			- o job esta sendo iniciado automaticamente quando o repositorio main é atualizado no github 
 				- utilizando o merge para sincronização
