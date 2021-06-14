@@ -70,10 +70,9 @@ o teste foi descrito no passo de teste unitário
 
 
 ## Envio da solução
-Você deverá criar um fork deste repositório, incluir os scripts `.yml` e enviar para recruta.tech@nibo.com.br o link do seu fork. Lembre-se de não versionar qualquer chave de acesso. Se for necessário, envie essas chaves junto com o e-mail.
+- você deverá criar um fork deste repositório: https://github.com/mmdumar/NiboDesafioGit.git
+- incluir os scripts `.yml` : https://github.com/migueldumar/NiboDesafioGit/tree/develop/arquivos_scripts
 
-Tenha capricho com o resultado final. Essa é a sua chance de entrar para o melhor time, na startup que mais cresce no Brasil.
 
-**NIBO - Desenvolvimento de alta performance para geeks inquietos**
 
-Boa sorte :D
+
