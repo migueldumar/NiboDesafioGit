@@ -4,10 +4,10 @@ Para realização do desafio, foi necessário a execução dos seguintes passos?
 
 ### Passos:
 
-####Criar uma conta gratuita no Azure
+#### Criar uma conta gratuita no Azure
 - [ ] Foi criada uma conta no Azure e no Azure DevOps
 
-####Configurar o Azure para dois ambientes: Teste e Produção
+#### Configurar o Azure para dois ambientes: Teste e Produção
 - [ ] O Azure foi configurado da seguinte forma: 
 	- Teste 
 		Grupo de recursos: nibodesafiogitdev-rg
@@ -17,13 +17,13 @@ Para realização do desafio, foi necessário a execução dos seguintes passos?
 		Grupo de recursos: nibodesafiogitdev-rg
 		DevOps Starter: NiboDesafioGitDev	
 	
-####Configurar pipeline para integração e deploy contínuo usando o Github Actions ou Azure DevOps
+#### Configurar pipeline para integração e deploy contínuo usando o Github Actions ou Azure DevOps
 - [ ] A aplicação foi desenvolvida no Visual Studio e armazenada no repositorio [github] (https://github.com/migueldumar/NiboDesafioGit)
 - [ ] Para o pipeline de integração e deploy contínuo (CI/CD) foi usando o Azure DevOps com o repositorio no githeb referenciado no item anterior. 
 
-####Uma das etapas obrigatórias deve rodar os testes unitários
-####O deploy deve ser realizado automaticamente no ambiente de testes e no ambiente de produção, seguindo o Github Flow
-####O deploy deverá ser feito na sua conta Azure nos ambientes que você criou
+#### Uma das etapas obrigatórias deve rodar os testes unitários
+#### O deploy deve ser realizado automaticamente no ambiente de testes e no ambiente de produção, seguindo o Github Flow
+#### O deploy deverá ser feito na sua conta Azure nos ambientes que você criou
 
 - O teste unitário foi aplicado no pipeline NiboDesafioGitDev - CI
 	- [Homologação](http://nibodesafiogitdev.azurewebsites.net/)
@@ -45,15 +45,15 @@ Para realização do desafio, foi necessário a execução dos seguintes passos?
 			- para realização da implantação, foi configurado o job release NiboDesafioGit - CD, que é inicado automaticamente com o sucesso do job NiboDesafioGit - CI
 		
     
-####URLs e instruções de como verificar o resultado
+#### URLs e instruções de como verificar o resultado
 
-#####Produção: 
+##### Produção: 
 NiboDesafioGit.azurewebsites.net
 
-#####Homologação:
+##### Homologação:
 NiboDesafioGitDev.azurewebsites.net
 
-#####Github
+##### Github
 https://github.com/migueldumar/NiboDesafioGit.git
 
 o teste foi descrito no passo de teste unitário
