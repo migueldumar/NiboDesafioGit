@@ -14,20 +14,21 @@ Para realização do desafio, foi necessário a execução dos seguintes passos:
 	- Teste 
 		Grupo de recursos: nibodesafiogitdev-rg
 		DevOps Starter: NiboDesafioGitDev
-
+#
 <img src="https://github.com/migueldumar/NiboDesafioGit/blob/develop/NiboDesafioGitDev.png" align="center">
+
 	- Produção
 		Grupo de recursos: nibodesafiogitdev-rg
 		DevOps Starter: NiboDesafioGitDev	
-
+#
 <img src="https://github.com/migueldumar/NiboDesafioGit/blob/develop/NiboDesafioGit.png" align="center">
 
 #### Configurar pipeline para integração e deploy contínuo usando o Github Actions ou Azure DevOps
 - [ ] A aplicação foi desenvolvida no Visual Studio e armazenada no repositorio [github] (https://github.com/migueldumar/NiboDesafioGit)
 - [ ] Para o pipeline de integração e deploy contínuo (CI/CD) foi usando o Azure DevOps com o repositorio no githeb referenciado no item anterior. 
-
+#
 <img src="https://github.com/migueldumar/NiboDesafioGit/blob/develop/NiboDesafioGit_CI_CD.png" align="center">
-
+#
 <img src="https://github.com/migueldumar/NiboDesafioGit/blob/develop/NiboDesafioGitDev_CI_CD.png" align="center">
 
 #### Uma das etapas obrigatórias deve rodar os testes unitários
@@ -53,7 +54,7 @@ Para realização do desafio, foi necessário a execução dos seguintes passos:
 			- o teste é realizado no passo de deploy (passo anterior de homologação), tendo em vista que o merge para a produção já cracteriza que a build de homologação já foi testada.
 			- para realização da implantação, foi configurado o job release NiboDesafioGit - CD, que é inicado automaticamente com o sucesso do job NiboDesafioGit - CI
 			- para finalização do deploy, é necessária a aprovação por um usuário "admin".
-			
+#			
 <img src="https://github.com/migueldumar/NiboDesafioGit/blob/develop/NiboDesafioGit_approved_CD.png" align="center">
     
 #### URLs e instruções de como verificar o resultado
