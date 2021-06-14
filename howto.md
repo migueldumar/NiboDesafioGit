@@ -1,8 +1,8 @@
 ## O desafio
 
-Para realização do desafio, foi necessário a execução dos seguintes passos?
+Para realização do desafio, foi necessário a execução dos seguintes passos:
 
-### Passos:
+### Passos:<img src="https://github.com/migueldumar/NiboDesafioGit/blob/develop/desafio_01.png" align="center">
 
 #### Criar uma conta gratuita no Azure
 - [ ] Foi criada uma conta no Azure e no Azure DevOps
@@ -43,6 +43,7 @@ Para realização do desafio, foi necessário a execução dos seguintes passos?
 				- utilizando o merge para sincronização
 			- o teste é realizado no passo de deploy (passo anterior de homologação), tendo em vista que o merge para a produção já cracteriza que a build de homologação já foi testada.
 			- para realização da implantação, foi configurado o job release NiboDesafioGit - CD, que é inicado automaticamente com o sucesso do job NiboDesafioGit - CI
+			- para finalização do deploy, é necessária a aprovação por um usuário "admin".
 		
     
 #### URLs e instruções de como verificar o resultado
